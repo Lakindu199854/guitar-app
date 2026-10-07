@@ -18,7 +18,7 @@ npm test
 npm run build
 ```
 
-No credentials or backend are needed. High scores are local to the browser; storage restrictions can prevent persistence. Fonts use Google Fonts with system fallbacks. On small screens the full fretboard scrolls horizontally to keep frets readable.
+No credentials or backend are needed. High scores are local to the browser; storage restrictions can prevent persistence. Fonts use Google Fonts with system fallbacks. On phones, all twelve frets fit on screen, note answers have touch-friendly targets, and the timer remains visible while playing.
 
 ## Play online with GitHub Pages
 
