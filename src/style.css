@@ -74,3 +74,12 @@
   .play-card .start-button{grid-column:1/-1;grid-row:4}
   .play-card .start-caption{grid-column:1/-1;grid-row:5}
 }
+.note-hint-tools{margin-top:18px}
+.note-hints{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;margin-top:9px}
+.note-hint{min-width:0;min-height:44px;border:1px solid #d8e4cf;border-radius:10px;background:#f4f8ee;color:#577449;font-family:Manrope,sans-serif;font-size:18px;font-weight:800;touch-action:none;user-select:none;-webkit-user-select:none}
+.note-hint:hover,.note-hint[aria-pressed="true"]{background:#dbeacb;border-color:#8ca779;color:#385b31}
+.show-selected-note .natural-note.matching-note{display:flex}
+.show-selected-note .highlight.hinted .target-dot{display:none}
+.show-selected-note .highlight .natural-note.matching-note{background:#709161;color:#fff;box-shadow:0 0 0 4px #e5eedc,0 0 0 8px #79936230}
+@media(max-width:600px){.note-hint-tools{margin-top:12px}.note-hints{gap:5px;margin-top:7px}.note-hint{font-size:16px;border-radius:8px}.show-selected-note .highlight .natural-note.matching-note{box-shadow:0 0 0 2px #e5eedc,0 0 0 5px #79936230}}
+@media(max-width:380px){.note-hints{grid-template-columns:repeat(4,minmax(0,1fr))}}

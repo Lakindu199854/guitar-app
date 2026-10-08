@@ -1,6 +1,6 @@
 # Fret Sprout
 
-A friendly guitar fretboard game with all six strings and twelve frets, random note challenges, four timer settings, and personal bests saved per difficulty in browser storage. Wrong answers and timeouts end the round and reveal the answer. Standard tuning, high E at the top; enharmonic sharp/flat names share answer buttons. Hold the “Hold to see natural notes” button with a mouse, touch, or keyboard to reveal all C, D, E, F, G, A, and B positions while pressed.
+A friendly guitar fretboard game with all six strings and twelve frets, random note challenges, four timer settings, and personal bests saved per difficulty in browser storage. Wrong answers and timeouts end the round and reveal the answer. Standard tuning, high E at the top; enharmonic sharp/flat names share answer buttons. Hold an A–G button above the fretboard to reveal every position for that natural note, or hold “Hold to see natural notes” to reveal all natural note positions. Mouse, touch, and keyboard press-and-hold are supported.
 
 ## Development
 
